@@ -1,0 +1,4 @@
+function [ N ] = constraint( lambda,D,mu )
+    N = max2*lambda*(D - (lambda/(mu*(mu-lambda)))) + 1;
+end
+
